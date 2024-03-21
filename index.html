@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+       
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="page2.html" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="page3.html" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="work.html" class="nav__link">My Work</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jordan Bell</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Front-end Developer</p>
+            <img src="img/Jordan 2.jpg" alt=" A picture of Jordan smiling." class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>As a Front-end developer and UX/UI designer, I handle the entire project life cycle from design conceptualization to coding and development. I independently create and implement visually appealing, user-centric interfaces for web applications.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Freelance</h3>
+                    <p>I am actively cultivating my skills to offer freelance services to individuals and organizations. Currently engaged in continuous learning to provide valuable contributions as a freelancer for diverse projects and clients.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Student</h3>
+                    <p>As a dedicated student, I am immersed in acquiring comprehensive knowledge in Frontend development and UX/UI design. Eager to explore and master these fields, I am a fast learner committed to staying current with industry trends and best practices.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about"> A Student at UTA</p>
+           
+           <div class="about-me__body">
+               <p>I am currently a student at the University of Texas at Arlington, majoring in Communication Technology with a focus on becoming a Frontend developer and UX/UI designer. My long-term goal is to evolve into a full-stack developer. Originally from Florida, I've been in Texas for the past 10 years, and though I miss the beach, my passion for technology keeps me engaged.</p>
+               <p>Outside of academics, I enjoy reading, drawing, traveling, and playing games, driven by my inherent curiosity and love for learning. Technology, with its dynamic nature, aligns perfectly with my interests. I have a creative mindset, making coding and creation a natural fit for me. Even delving into the data side of things excites me, as I am always eager to expand my knowledge and skills in the ever-evolving tech landscape.</p>
+           </div>
+           
+           <img src="img/Jordan .JPG" alt="A picture of Jordan smiling." class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Selection of My work</p>
+            
+            <div class="portfolio">
+                <!-- work tab -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+        
+                
+               
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <a href="mailto:belljordan1130@gmaill.com" class="footer__link">hello@Jordan.dev</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jordan-bell-b35309168/">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Jayb2001">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
